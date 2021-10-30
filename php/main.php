@@ -14,7 +14,7 @@
     $generate->firstName = $sanitize->post($_POST['firstName']);
     $generate->lastName = $sanitize->post($_POST['lastName']);
     
-    $generate->middleName($list1, $list2);   
+    $generate->middleName($list1, $list2);
 
     echo $generate->middleName;        
 
