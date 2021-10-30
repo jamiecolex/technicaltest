@@ -1,0 +1,54 @@
+html{
+    margin:0;
+    padding:0;
+    background-color:#22c3aa;
+}
+input{    
+    margin:0;
+    padding:5px;
+    margin:0px 10px;
+    font-size:20px;
+    float:left;
+    background-color:#38d9c0;
+    border:3px solid #22c3aa;    
+    color:#18564d;
+}
+::placeholder {
+    color: #18564d;
+    opacity: 1; /* Firefox */
+  }
+#container{
+    position:fixed;
+    width:80%;
+    top:10%;
+    left:50%;
+    margin-left:-40%;
+}
+.generatedName{
+    float:left;
+}
+#generatedFirstName, #generatedLastName{
+    position:relative;
+    font-family:'Manrope', sans-serif;
+    color:#18564d;
+}
+#generatedMiddleName{
+    position:relative;
+    font-family:'Permanent Marker', cursive;
+    padding:0px 30px;
+    color:#FFF;
+}
+#generatedContainer{
+    position:relative;
+    font-size:60px;
+    height:100px;
+    float:left;
+    text-align:center;
+    width:100%;   
+}
+@media all and (max-width: 1024px){
+	#generatedContainer{       
+        font-size:40px;
+        height:250px;
+    }	
+}
