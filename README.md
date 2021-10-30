@@ -1,5 +1,8 @@
 # Technical Test
 
+A simple PHP web app to generate a funny middle name.
+
+
 ## Live Demo
 https://jamiecole.work/technicaltest
 
