@@ -1,6 +1,6 @@
 # Technical Test
 
-A simple PHP web app to generate a funny middle name.
+A simple PHP web app to generate a funny middle name. Developed for a technical test.
 
 
 ## Live Demo
